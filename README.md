@@ -16,7 +16,7 @@ Open the Bash in the C folder and run the following commands.
    .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list
 
 4. Window 4 - Run Kafka Producer (will provide a > prompt for writing messages)
-   .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic bearcat-messages
+   .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic tourism
 
 5. Window 5 - Run Kafka Consumer (to show messages from the beginning)
-   .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat-messages --from-beginning
+   .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tourism --from-beginning
